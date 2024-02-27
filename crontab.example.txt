@@ -1,0 +1,6 @@
+# m   h  dom mon dow   command
+  *   4  *   *   *     /usr/bin/php -f /var/webservices/platform-api.chdekker.nl/dekker-api/cron/cron_clean.php dekker > /dev/null
+  */2 *  *   *   *     /usr/bin/php -f /var/webservices/platform-api.chdekker.nl/dekker-api/cron/cron_prepare.php dekker > /dev/null
+  */2 *  *   *   *     /usr/bin/php -f /var/webservices/platform-api.chdekker.nl/dekker-api/cron/cron_send.php dekker > /dev/null
+  */4 *  *   *   *     /usr/bin/php -f /var/webservices/platform-api.chdekker.nl/dekker-api/cron/cron_recurring.php dekker > /dev/null
+  *   *  1   *   *     /usr/bin/php -f /var/webservices/platform-api.chdekker.nl/dekker-api/cron/cron_ideas.php dekker > /dev/null

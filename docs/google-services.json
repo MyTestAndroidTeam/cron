@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1028523956918",
+    "firebase_url": "https://dekker-app.firebaseio.com",
+    "project_id": "dekker-app",
+    "storage_bucket": "dekker-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028523956918:android:d0e21c2f040bae5f",
+        "android_client_info": {
+          "package_name": "nl.chdekker.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028523956918-6kggg0frkd8a7e7ov9o12k8gvri3udqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEy8dxfxoBL6f8Jhag_y2459n2hClVIpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028523956918-6kggg0frkd8a7e7ov9o12k8gvri3udqd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1028523956918-c2jpfhqad5eou3af4294a011a0kmsp4j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cogniteq.ios.CHDekker"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,24 @@
+1.
+Just a simple message:
+{
+"type":"message",
+"message":"Open the app and be amazed"
+}
+
+
+2.
+To open a newsletter from the push message:
+{
+"type":"news",
+"id":23,
+"message":"There is a newsletter for you"
+}
+
+3.
+A repair
+{
+"type":"damage",
+"id":32,
+"message":"A new repair has been added"
+}
+
